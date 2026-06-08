@@ -48,3 +48,9 @@ Demonstrated on one turbine only; the monitor flags *that* a turbine underperfor
 3. **Automate baseline selection** (longest clean high-availability window).
 4. **Data-driven, adaptive alert thresholds** per turbine.
 5. **Seasonal baseline refresh** to counter slow drift.
+
+The methods should be used to support one another, so the power curve analysis identifies performance anomalies, normal behaviour of systems/components can be used to identify faults, and predicting sensors can be used to check the calibration of the sensors taking the measurements.
+
+The metrics produced for each turbine can be compared with the rest of the fleet to identify the characteristics of turbines with good/bad performance.
+
+The aim would be to create fleet level analytics which assess turbines against each other as well as individual turbine analytics to identify potential faults and support maintenance activities and operational decisions.
